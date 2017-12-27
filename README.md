@@ -1,5 +1,5 @@
 # Today I Learned
-Today I Learned. Daily commit.
+Today I Learned.
 
 # 작성 규칙
 - 문서 생성은 [GFM (Github Flavored Markdown)](https://help.github.com/articles/github-flavored-markdown/) 을 사용한다. (확장자 `.md`)
