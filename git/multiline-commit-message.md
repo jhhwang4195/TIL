@@ -1,8 +1,6 @@
 # commit message를 multi line으로 작성하기
 commit message를 여러줄로 작성하는 방법을 정리한다.
-
 상황에 따라 적절한 방법을 사용하면 될거 같다.
-
 자세한 내용을 하단의 Reference를 참고하면 된다.
 
 ## 방법1) git commit
