@@ -7,6 +7,22 @@ git log --no-merges --raw --since='2 weeks ago'
 git whatchanged --since='2 weeks ago'
 ```
 
+## --before, --after 옵션을 사용한 commit 날짜 필터링
+```
+git log --before 2017-12-10
+git log --after 2017-12-10
+```
+
+## --before, --after 옵션을 사용한 commit 날짜 범위 지정 후 필터링
+```
+git log --after 2017-12-10 --before 2017-12-12
+```
+
+## author 정보로 commit 정보를 필터링
+```
+git log --author=jhhwang
+```
+
 ## 마지막 n개의 커밋 나열하기
 ```
 git log -<n>
