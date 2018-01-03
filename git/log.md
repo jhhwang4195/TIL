@@ -38,3 +38,30 @@ git log --since='JAN 1 2018' --until='JAN 3 2018'
 ```
 $ git log --reverse
 ```
+
+## commit에 대한 모든 변경 사항 확인
+```
+git log -p
+git log -p --raw
+```
+
+## 파일 하나에 대한 변경 이력 확인하기
+```
+git log <filename>
+git log -p <filename>
+```
+
+## commit별로 변경된 내용 요약 (추가 된 행 수, 제거 된 행 수) 확인
+```
+git log --stat
+```
+
+## commit에 대한 정보를 한줄로 표시하기
+```
+git log --oneline
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
+
+## Reference
+* https://www.thegeekstuff.com/2014/04/git-log/
+* https://devhints.io/git-log
