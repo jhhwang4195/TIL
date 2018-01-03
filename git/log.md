@@ -66,6 +66,10 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 ## author, title에 대한 그룹을 지어 commit 정보를 표시
 ```
 git shortlog
+```
+
+## author별로 commit을 몇번했는지 확인
+```
 git shortlog -se
 ```
 
