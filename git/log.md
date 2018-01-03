@@ -40,6 +40,7 @@ $ git log --reverse
 ```
 
 ## commit에 대한 모든 변경 사항 확인
+참고로 -p 옵션은 각 커밋의 diff 결과를 출력해준다.
 ```
 git log -p
 git log -p --raw
