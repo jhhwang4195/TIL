@@ -17,3 +17,8 @@ git log -n <n>
 ```
 git log --since='JAN 1 2018' --until='JAN 3 2018'
 ```
+
+## git의 첫번째 commit 날짜 확인
+```
+$ git log --reverse
+```
