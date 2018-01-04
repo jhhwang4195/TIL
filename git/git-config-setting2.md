@@ -67,3 +67,4 @@ git config --global merge.tool vimdiff
 ## Reference
 * https://www.leaseweb.com/labs/2013/08/git-tip-beautiful-colored-and-readable-output/
 * https://gist.github.com/pksunkara/988716/forks
+* https://git-scm.com/docs/git-config
