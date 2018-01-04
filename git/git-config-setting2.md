@@ -17,7 +17,7 @@ git config --global color.branch.local "yellow"
 git config --global color.branch.remote "green"
 
 git config --global color.diff.meta "yellow bold"
-git config --global color.diff.frag "megenta bold"
+git config --global color.diff.frag "magenta bold"
 git config --global color.diff.old "red bold"
 git config --global color.diff.new "green bold"
 
