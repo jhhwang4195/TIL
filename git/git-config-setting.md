@@ -31,4 +31,4 @@ lg = !"git lg1"
 
 [merge]
 	tool = vimdiff
- ```
+```
