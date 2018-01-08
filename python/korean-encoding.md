@@ -1,4 +1,4 @@
-Resolving Korean encoding in Python
+# Resolving Korean encoding in Python
 
 ```
 # -*- coding: utf-8 -*-        <--- Add this line
