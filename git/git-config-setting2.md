@@ -26,6 +26,8 @@ git config --global color.status.changed "green"
 git config --global color.status.untracked "cyan"
 
 git config --global merge.tool vimdiff
+
+git config --global push.default simple
 ```
 
 ## .gitconfig 파일 직접 수정
@@ -62,6 +64,10 @@ git config --global merge.tool vimdiff
 
 [merge]
 	tool = vimdiff
+
+[push]
+    default = simple
+
 ```
 
 ## Reference
