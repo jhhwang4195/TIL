@@ -10,7 +10,13 @@ $ hostname xos
 
 ## root 패스워드 변경
 ```
-$ sudo passwdroot 
+$ sudo passwd root 
+```
+
+## 패키지 설치
+```
+$ apt update -y
+$ apt install -y vim htop iftop tree openssh-server lrzsz openvswitch-switch ssh
 ```
 
 ## ssh root 접속 설정
@@ -19,16 +25,23 @@ $ sudo passwdroot
 $ PermitRootLogin yes 
 ```
 
-## 패키지 설치
+## sshd 재기동
 ```
-$ apt update -y
-$ apt install -y  vim htop  iftop tree  openssh-server  lrzsz openvswitch-switch
+$ service sshd restart
 ```
+
 
 ## vimrc 편집
 /root/.vimrc 파일을 편집한다.
 ```
-colorkoehler
-settags=./tags,/opt/xos/tags
-settabstop=4 softtabstop=4 shiftwidth=4  autoindent
+color koehler
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+set autoindent
+set cindent
+set smartindent
+set noexpandtab
 ```
