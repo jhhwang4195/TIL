@@ -5,6 +5,15 @@
 예를 들어 gcdlcm(3,12) 가 입력되면, [3, 12]를 반환해주면 됩니다.
 ```
 
+## template
+```
+def gcdlcm(a, b):
+
+    return answer
+
+print(gcdlcm(3,12))
+```
+
 ## source
 ```
 def gcdlcm(a, b):
