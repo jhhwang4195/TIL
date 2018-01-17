@@ -8,6 +8,7 @@
 ## template
 ```
 def gcdlcm(a, b):
+    answer = []
 
     return answer
 
