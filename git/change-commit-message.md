@@ -1,4 +1,5 @@
 commit하고 push를 했는데 commit message가 잘못된것을 확인했다.
+
 이때 commit message를 수정하려면 아래와 같이 한다.
 
 ## commit 메시지 수정
