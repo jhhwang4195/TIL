@@ -29,9 +29,7 @@ print("결과 {} ".format(rm_small(my_list)))
 def rm_small(mylist):
     mylist.remove(min(mylist))
         return mylist
-```
 
-```
 # fail
 my_list = []
 print("결과 {} ".format(rm_small(my_list)))
@@ -67,9 +65,7 @@ def rm_small(mylist):
             break
 
     return mylist
-```
 
-```
 # success
 my_list = []
 print("결과 {} ".format(rm_small(my_list)))
@@ -97,9 +93,7 @@ print("결과 {} ".format(rm_small(my_list)))
 def rm_small(mylist):
     return [i for i in mylist if i > min(mylist)]
         return mylist
-```
 
-```
 # success
 my_list = []
 print("결과 {} ".format(rm_small(my_list)))
