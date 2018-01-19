@@ -36,16 +36,23 @@ def sumMatrix(A,B):
 
 # 아래는 테스트로 출력해 보기 위한 코드입니다.
 # 2*2 matrix
+# success
 print(sumMatrix([[1,2], [2,3]], [[3,4],[5,6]]))
+# success
 print(sumMatrix([[1,2], [3,4]], [[1,2],[3,4]]))
+# success
 print(sumMatrix([[-1,-2], [-3,-4]], [[1,2],[3,4]]))
+# success
 print(sumMatrix([[-1,-2], [-3,-4]], [[1,2],[5,5]]))
 
 # 3*3 matrix
+# success
 print(sumMatrix([[1,2,3], [1,2,3], [1,2,3]], [[1,2,3], [1,2,3], [1,2,3]]))
+# success
 print(sumMatrix([[1,2,3], [1,2,3], [1,2,3]], [[1,2,3], [1,2,3], [-1,-2,-3]]))
 
 # 2*1 matrix
+# success
 print(sumMatrix([[1,2], [2,3]], [[3,4]]))
 ```
 
