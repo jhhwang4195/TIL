@@ -1,7 +1,13 @@
 # markdown 작성법
 
 markdown 작성에 필요한 정보를 정리해보았습니다.
- 
+
+## md 작성시 new line 적용하기
+Reference: https://stackoverflow.com/questions/22385334/how-to-write-one-new-line-in-bitbucket-markdown
+```
+When you do want to insert a <br /> break tag using Markdown, you end a line with two or more spaces, then type return or Enter.
+```
+
 ## markdown cheat sheet
 ![markdown_cheat_sheet](images/markdown_cheat_sheet.JPG)
 
