@@ -2,11 +2,6 @@
 
 markdown 작성에 필요한 정보를 정리해보았습니다.
 
-## syntax highlighting in markdown
-* https://help.github.com/articles/creating-and-highlighting-code-blocks/
-* https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown
-
-
 ## markdown cheat sheet
 ![markdown_cheat_sheet](images/markdown_cheat_sheet.JPG)
 
@@ -20,6 +15,11 @@ Reference: https://stackoverflow.com/questions/22385334/how-to-write-one-new-lin
 ```
 When you do want to insert a <br /> break tag using Markdown, you end a line with two or more spaces, then type return or Enter.
 ```
+
+
+## syntax highlighting in markdown
+* https://help.github.com/articles/creating-and-highlighting-code-blocks/
+* https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown
 
 
 ## Reference
