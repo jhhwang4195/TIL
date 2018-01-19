@@ -1,5 +1,7 @@
 구글링해서 어떤 소스 코드를 찾아서 vi에 복사하는 경우가 있다.   
 그런데 auto indentation이 적용되어 아래와 같이 indendation이 이상해진다.   
+아래와 같은 파이썬 코드를 작성으로 indentation 맞추기 삽질 시작..   
+소스가 몇줄 안되도 겁나 짜증 폭발하겠음!!!    
 
 ## 예시
 ```
@@ -54,13 +56,14 @@ def sumMatrix(A,B):
 
 위와 같이 하면 너무나 귀찮고 짜증이 폭발하겠지요?  
 그래서 vimrc 파일에 아래와 같이 적용해서 F3으로 토글해서 쓰면 된다고 합니다.  
-실제로 해보니까 정말 잘되네요.  
-야호!!! 삽질을 줄일수 있겠다ㅎㅎ  
 
 ## autoindent 기능 스위칭 하기
 ```
 set pastetoggle=<F3>
 ```
+
+실제로 해보니까 정말 잘되네요.  
+야호!!! 삽질을 줄일수 있겠다ㅎㅎ  
 
 ## Refererce
 * https://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim
