@@ -38,6 +38,7 @@ print(sumDivisor(12))
 ```
 
 ## good1
+한줄로 끝내버리는 센스 멋지군요ㅎㅎ
 ```
 def sumDivisor(num):
     return sum([i for i in range(1, num+1) if num % i == 0])
@@ -53,6 +54,7 @@ print(sumDivisor(12))
 ```
 
 ## good2
+한줄로 끝내버리는 센스 멋지군요ㅎㅎ
 성능 향상 아름답군요ㅎㅎ
 ```
 def sumDivisor(num):
