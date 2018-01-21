@@ -53,6 +53,7 @@ print(sumDivisor(12))
 ```
 
 ## good2
+성능 향상 아름답군요ㅎㅎ
 ```
 def sumDivisor(num):
     # num / 2 의 수들만 검사하면 성능 약 2배 향상잼
