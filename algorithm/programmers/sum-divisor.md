@@ -40,7 +40,7 @@ print(sumDivisor(12))
 ## good1
 ```
 def sumDivisor(num):
-    # return sum([i for i in range(1, num+1) if num % i == 0])
+    return sum([i for i in range(1, num+1) if num % i == 0])
 
 # 아래는 테스트로 출력해 보기 위한 코드입니다.
 print(sumDivisor(0))
@@ -57,7 +57,6 @@ print(sumDivisor(12))
 def sumDivisor(num):
     # num / 2 의 수들만 검사하면 성능 약 2배 향상잼
     return num + sum([i for i in range(1, (num // 2) + 1) if num % i == 0])
-
 
 # 아래는 테스트로 출력해 보기 위한 코드입니다.
 print(sumDivisor(0))
