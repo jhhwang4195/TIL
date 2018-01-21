@@ -16,7 +16,8 @@ print(fibonacci(3))
 ```
 
 ## source
-```def fibonacci(num):
+```
+def fibonacci(num):
     answer = [0,1]
     
     if num == 0:
