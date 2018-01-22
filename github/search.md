@@ -10,7 +10,7 @@ filename:split.py
 
 ## Search based on the number of forks
 ```
-검색어 fork:>10000
+검색어 forks:>10000
 ```
 
 ## Search based on the number of stars a repository has
