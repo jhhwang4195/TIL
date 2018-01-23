@@ -32,11 +32,11 @@ print("결과 : " + evenOrOdd(2))
 ```
 
 ## good
-대단하다. 아래 print 결과를 확인하면 이해가 될듯
-print('1 and "Odd": %s' % (1 and "Odd"))    # Odd
-print('0 and "Odd": %s' % (0 and "Odd"))    # 0
-print('1 and "Odd" or "Even": %s' %(1 and "Odd" or "Even"))     # Odd
-print('0 and "Odd" or "Even": %s' %(0 and "Odd" or "Even"))     # Even
+대단하다. 아래 print 결과를 확인하면 이해가 될듯  
+print('1 and "Odd": %s' % (1 and "Odd"))    # Odd  
+print('0 and "Odd": %s' % (0 and "Odd"))    # 0  
+print('1 and "Odd" or "Even": %s' %(1 and "Odd" or "Even"))     # Odd  
+print('0 and "Odd" or "Even": %s' %(0 and "Odd" or "Even"))     # Even  
 
 ```
 def evenOrOdd(num):
