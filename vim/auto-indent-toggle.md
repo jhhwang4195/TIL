@@ -1,5 +1,5 @@
 구글링해서 어떤 소스 코드를 찾아서 vi에 복사하는 경우가 있다.   
-그런데 auto indentation이 적용되어 아래와 같이 indendation이 이상해진다.   
+그런데 auto indentation이 적용되어 아래와 같이 indentation이 이상해진다.   
 아래와 같은 파이썬 코드를 작성으로 indentation 맞추기 삽질 시작..   
 소스가 몇줄 안되도 겁나 짜증 폭발하겠음!!!    
 
@@ -65,5 +65,5 @@ set pastetoggle=<F3>
 실제로 해보니까 정말 잘되네요.  
 야호!!! 삽질을 줄일수 있겠다ㅎㅎ  
 
-## Refererce
+## Reference
 * https://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim
