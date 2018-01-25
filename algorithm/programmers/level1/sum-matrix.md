@@ -8,7 +8,7 @@
 
 
 ## template
-```
+```python
 def sumMatrix(A,B):
     answer = []
     
@@ -19,7 +19,7 @@ print(sumMatrix([[1,2], [2,3]], [[3,4],[5,6]]))
 ```
 
 ## source
-```
+```python
 def sumMatrix(A,B):
     answer = []
 
@@ -59,7 +59,7 @@ print(sumMatrix([[1,2], [2,3]], [[3,4]]))
 ## good1
 zip은 생소한데 찾아봐야겠군..<br>
 2*1 matrix는 결과가 조금 이상하군..<br>
-```
+```python
 def sumMatrix(A,B):
     answer = [[c + d for c, d in zip(a, b)] for a, b in zip(A,B)]
     return answer
@@ -88,7 +88,7 @@ print(sumMatrix([[1,2], [2,3]], [[3,4]]))
 ## good2
 numpy를 써서하면 이렇게도 되는군..<br>
 2*1 matrix는 결과가 조금 이상하군..<br>
-```
+```python
 import numpy as np
 def sumMatrix(A,B):
     A=np.array(A)

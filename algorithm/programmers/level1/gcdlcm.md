@@ -7,7 +7,7 @@
 ```
 
 ## template
-```
+```python
 def gcdlcm(a, b):
     answer = []
 
@@ -17,7 +17,7 @@ print(gcdlcm(3,12))
 ```
 
 ## source
-```
+```python
 def gcdlcm(a, b):
     answer = []
 
@@ -36,8 +36,8 @@ def gcdlcm(a, b):
 print(gcdlcm(3,12))
 ```
 
-## good
-```
+## good1
+```python
 def gcdlcm(a, b):
     c, d = max(a, b), min(a, b)
     t = 1
@@ -51,7 +51,8 @@ def gcdlcm(a, b):
 print(gcdlcm(3,12))
 ```
 
-```
+## good2
+```python
 def gcdlcm(a, b):
     for i in range(a):
         if a%(a-i)+b%(a-i) == 0:

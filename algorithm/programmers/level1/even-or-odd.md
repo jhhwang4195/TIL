@@ -5,7 +5,7 @@ num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환�
 num은 0이상의 정수이며, num이 음수인 경우는 없습니다.  
 
 ## template
-```
+```python
 def evenOrOdd(num):
     s = ""
     #함수를 완성하세요
@@ -18,7 +18,7 @@ print("결과 : " + evenOrOdd(2))
 ```
 
 ## source
-```
+```python
 def evenOrOdd(num):
     if int(num) % 2:
         return "Odd"
@@ -38,7 +38,7 @@ print('0 and "Odd": %s' % (0 and "Odd"))    # 0
 print('1 and "Odd" or "Even": %s' %(1 and "Odd" or "Even"))     # Odd  
 print('0 and "Odd" or "Even": %s' %(0 and "Odd" or "Even"))     # Even  
 
-```
+```python
 def evenOrOdd(num):
 	return num % 2 and "Odd" or "Even"
 

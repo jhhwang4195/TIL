@@ -7,7 +7,7 @@ s의 글자들의 순서를 유지하면서, 글자들 중 연속적으로 나�
 * s가 '47330'이라면 [4, 7, 3, 0]을 리턴  
 
 ## template
-```
+```python
 def no_continuous(s):
     # 함수를 완성하세요
     return []
@@ -17,7 +17,7 @@ print( no_continuous( "133303" ))
 ```
 
 ## source
-```
+```python
 def no_continuous(s):
     result = []
     old_value = ""
@@ -37,7 +37,7 @@ print( no_continuous( "11223311" ))
 
 ## good1
 a의 마지막 index 값과 비교해서 없으면 리스트에 추가하기
-```
+```python
 def no_continuous(s):
     a = []
     for i in s:
@@ -52,7 +52,7 @@ print( no_continuous( "11223311" ))
 ```
 
 ## good2
-```
+```python
 def no_continuous(s):
     return [s[i] for i in range(len(s)) if s[i] != s[i+1:i+2]]
 

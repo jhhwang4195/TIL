@@ -5,7 +5,7 @@
 
 
 ## template
-```
+```python
 def sumDivisor(num):
     answer = 1
 
@@ -16,7 +16,7 @@ print(sumDivisor(12))
 ```
 
 ## source
-```
+```python
 def sumDivisor(num):
     answer = 0
 
@@ -39,7 +39,7 @@ print(sumDivisor(12))
 
 ## good1
 한줄로 끝내버리는 센스 멋지군요ㅎㅎ
-```
+```python
 def sumDivisor(num):
     return sum([i for i in range(1, num+1) if num % i == 0])
 
@@ -56,7 +56,7 @@ print(sumDivisor(12))
 ## good2
 한줄로 끝내버리는 센스 멋지군요ㅎㅎ
 성능 향상 아름답군요ㅎㅎ
-```
+```python
 def sumDivisor(num):
     # num / 2 의 수들만 검사하면 성능 약 2배 향상잼
     return num + sum([i for i in range(1, (num // 2) + 1) if num % i == 0])

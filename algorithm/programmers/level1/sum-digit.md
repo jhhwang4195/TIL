@@ -5,7 +5,7 @@ sum_digit함수는 자연수를 전달 받아서 숫자의 각 자릿수의 합�
 sum_digit함수를 완성해보세요.   
 
 ## template
-```
+```python
 def sum_digit(number):
     '''number의 각 자릿수를 더해서 return하세요'''
 
@@ -14,7 +14,7 @@ print("결과 : {}".format(sum_digit(123)));
 ```
 
 ## source
-```
+```python
 def sum_digit(number):
     sum = 0
 
@@ -29,7 +29,7 @@ print("결과 : {}".format(sum_digit(123)));
 
 ## good1
 재귀 함수를 사용함
-```
+```python
 def sum_digit(number):
     if number < 10:
         return number;
@@ -42,7 +42,7 @@ print("결과 : {}".format(sum_digit(123)));
 ## good2
 map(f, iterable)은 각 요소가 함수 f에 의해 수행된 결과를 묶어서 리턴하는 함수,  
 str(number)각 인덱스에 int()함수를 수행해서 변환 후 sum()  
-```
+```python
 def sum_digit(number):
     return sum(map(int,str(number)))
 
@@ -52,7 +52,7 @@ print("결과 : {}".format(sum_digit(123)));
 
 ## good3
 정수 리스트에 sum을 이용해서 합 구하기
-```
+```python
 def sum_digit(number):
     return sum([int(i) for i in str(number)])
 

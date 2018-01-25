@@ -5,7 +5,7 @@
 예를 들어 n = 3이라면 2를 반환해주면 됩니다.  
 
 ## template
-```
+```python
 def fibonacci(num):
     answer = 0
 
@@ -16,7 +16,7 @@ print(fibonacci(3))
 ```
 
 ## source
-```
+```python
 def fibonacci(num):
     answer = [0,1]
     
@@ -40,7 +40,7 @@ print(fibonacci(6))
 ```
 
 ## good
-```
+```python
 def fibonacci(num):
     a, b = 0, 1
     for i in range(num):
