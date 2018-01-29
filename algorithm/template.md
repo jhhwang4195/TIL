@@ -3,27 +3,27 @@
 알고리즘 문제 블라블라~~~
 
 ## template
-```
+```python
 
 ```
 
 ## source
-```
+```python
 
 ```
 
 ## good1
-```
+```python
 
 ```
 
 ## good2
-```
+```python
 
 ```
 
 ## good3
-```
+```python
 
 ```
 
