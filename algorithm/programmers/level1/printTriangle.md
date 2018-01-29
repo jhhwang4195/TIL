@@ -21,7 +21,7 @@ printTriangle이 return하는 String은 개행문자('\n')로 끝나야 합니�
 ```
 
 ## template
-```
+```python
 def printTriangle(num):
     s = ""
 
@@ -33,7 +33,7 @@ print( printTriangle(3) )
 ```
 
 ## source
-```
+```python
 def printTriangle(num):
     s = ""
 
@@ -48,7 +48,7 @@ print( printTriangle(5) )
 ```
 
 ## good
-```
+```python
 def printTriangle(num):
     return ''.join(['*'*i + '\n' for i in range(1,num+1)])
 
