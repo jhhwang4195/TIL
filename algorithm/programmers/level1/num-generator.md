@@ -11,7 +11,7 @@ number_generator함수는 x와 n을 입력 받습니다.
 
 
 ## template
-```
+```python
 def number_generator(x, n):
     # 함수를 완성하세요
     return []
@@ -21,7 +21,7 @@ print(number_generator(3,5))
 ```
 
 ## source
-```
+```python
 def number_generator(x, n):
     result = []
 
@@ -35,7 +35,7 @@ print(number_generator(3,4))
 ```
 
 ## good
-```
+```python
 def number_generator(x, n):
     # 함수를 완성하세요
     return [i * x + x for i in range(n)]
