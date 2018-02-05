@@ -12,3 +12,6 @@ http://www.ddaily.co.kr/news/article.html?no=161201
 
 ## 오픈 소스는 어떻게 대세가 되었을까?
 https://brunch.co.kr/@bumgeunsong/15
+
+## 오픈 소스를 활용한 개발자 자기 개발
+https://slidebr.com/download/oss-_59ee4eedd64ab2bd2016f355_pdf
