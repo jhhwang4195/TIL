@@ -9,3 +9,6 @@ https://www.hackerrank.com/
 
 ## Github python algorithm repository
 https://github.com/nryoung/algorithms
+
+## 나는 어떻게 알고리즘을 공부했을까?
+https://www.slideshare.net/Baekjoon/ss-52193873
