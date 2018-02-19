@@ -63,5 +63,5 @@ else:
 ```
 
 ## Reference
-https://www.hackerrank.com/challenges/30-conditional-statements/problem
-https://www.hackerrank.com/challenges/30-conditional-statements/editorial
+https://www.hackerrank.com/challenges/30-conditional-statements/problem  
+https://www.hackerrank.com/challenges/30-conditional-statements/editorial  
