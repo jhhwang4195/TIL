@@ -89,5 +89,5 @@ print(s + s2)
 ```
 
 ## Reference
-https://www.hackerrank.com/challenges/30-data-types/problem
-https://www.hackerrank.com/challenges/30-data-types/editorial
+https://www.hackerrank.com/challenges/30-data-types/problem  
+https://www.hackerrank.com/challenges/30-data-types/editorial  
